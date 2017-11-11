@@ -1,0 +1,40 @@
+body {
+  background-color: #0EB1D2;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #B2D3A8;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #40C9A2;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #498467;
+
+
+}
+
+.btn:hover {
+  box-shadow: 0 4px #498467;
+  top: 2px;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
+}
